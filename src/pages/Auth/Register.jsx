@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Layout from "../../components/layouts/Layout";
+import style from "../../styles/AuthenStyles.css";
 
 import toast from "react-hot-toast";
 import axios from "axios";
+
 import { useNavigate } from "react-router-dom";
-import style from "../../styles/Authstyles.css";
 const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
