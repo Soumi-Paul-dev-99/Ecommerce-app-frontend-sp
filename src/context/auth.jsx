@@ -1,4 +1,4 @@
-import { useState, useContext, useEffect,createContext } from "react";
+import { useState, useContext, useEffect, createContext } from "react";
 
 const AuthContext = createContext();
 
@@ -14,11 +14,11 @@ const AuthProvider = ({ children }) => {
       setAuth({
         ...auth,
         user: parseData.user,
-        token: parseData.token
-      })
+        token: parseData.token,
+      });
     }
     //eslint -disable- next- line
-    }, []);
+  }, []);
   return (
     <AuthContext.Provider value={[auth, setAuth]}>
       {children}

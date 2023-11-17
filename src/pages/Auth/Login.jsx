@@ -16,10 +16,13 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:8000/api/v1/user/login", {
-        email,
-        password,
-      });
+      const res = await axios.post(
+        "https://ecommerce-app-backend-soumi-paul.onrender.com/login",
+        {
+          email,
+          password,
+        }
+      );
 
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
