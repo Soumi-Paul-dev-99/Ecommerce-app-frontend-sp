@@ -4,7 +4,7 @@ import { useAuth } from "../../context/auth";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-// import style from "../../styles/AuthenStyles.css";
+import style from "../../styles/AuthenStyles.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
