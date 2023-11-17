@@ -18,7 +18,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://ecommerce-app-backend-soumi-paul.onrender.com/register",
+        "https://ecommerce-app-backend-soumi-paul.onrender.com/api/v1/user/register",
         { name, email, password, phone, address }
       );
 

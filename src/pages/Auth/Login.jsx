@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://ecommerce-app-backend-soumi-paul.onrender.com/login",
+        "https://ecommerce-app-backend-soumi-paul.onrender.com/api/v1/user/login",
         {
           email,
           password,
