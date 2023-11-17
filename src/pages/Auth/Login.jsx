@@ -4,7 +4,7 @@ import { useAuth } from "../../context/auth";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import style from "../../styles/AuthenStyles.css";
+// import style from "../../styles/AuthenStyles.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://ecommerce-app-backend-soumi-paul.onrender.com/api/v1/user/login",
+        "https://ecommerce-app-backend-soumi.onrender.com/api/v1/user/login",
         {
           email,
           password,

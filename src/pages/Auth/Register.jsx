@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Layout from "../../components/layouts/Layout";
-import style from "../../styles/AuthenStyles.css";
+// import style from "../../styles/AuthenStyles.css";
 
 import toast from "react-hot-toast";
 import axios from "axios";
@@ -19,7 +19,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://ecommerce-app-backend-soumi-paul.onrender.com/api/v1/user/register",
+        "https://ecommerce-app-backend-soumi.onrender.com/api/v1/user/register",
         { name, email, password, phone, address }
       );
 
