@@ -7,4 +7,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-FRONTEND LIVE LINK = https://ecommerce-app-frontend-7txh687xy-soumi-pauls-projects.vercel.app/
+FRONTEND LIVE LINK =https://soumi-ecommerce-frontend-client-dfd9xmm46-soumi-paul1999.vercel.app/
